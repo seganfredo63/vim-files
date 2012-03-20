@@ -36,10 +36,6 @@ let g:gundo_right = 1
 let vimclojure#HighlightBuiltins=1
 let vimclojure#ParenRainbow=1
 
-" set how the tags will be updated and how often
-let g:easytags_dynamic_files = 2
-let g:easytags_updatetime_min = 500
-
 " make css color not change the update time to crazy 100ms
 let g:cssColorVimDoNotMessMyUpdatetime = 1
 
@@ -54,3 +50,6 @@ if g:enable_powerline
 else
   let g:Powerline_loaded = 0
 endif
+
+" use own color for the redgreen bar
+let g:jasmine_use_own_colors = 0
